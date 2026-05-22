@@ -1,5 +1,7 @@
 # Sprint-SERS-1CCPF
 
+# Nome do Projeto: ChargeGrid Pulse
+
 # Membros
 
 Rodrigo Santana - RM: 572454
@@ -34,3 +36,17 @@ Permite que shoppings e mercados cobrem pelas recargas ou deem descontos na reca
 # Tecnologias Utilizadas
 
 **Backend**: Feito via Python para criar a lógica do sistema, gerenciar as regras de negócio e realizar as consultas programadas (Pull) para ler os dados das estações.  
+
+**Banco de Dados**: Utilizado para armazenar e estruturar o histórico de consumo dos clientes, horários de pico e dados de faturamento
+
+**Modbus**: Usado para coletar localmente os dados físicos do carregador, medidor inteligente e inversores solares
+
+**APIs de Pagamento**: Integração com serviços financeiros para gerar cobranças automáticas via Pix ou Cartão de Crédito.  
+
+# Sustentabilidade e Energias Renováveis na Solução
+
+**Prioridade Solar**: Prioriza a ativação do modo prioridade solar do hardware durante os horários de pico de produção fotovoltaica do comércio, garantindo que os carros rodem com energia limpa.
+
+**Armazenamento Inteligente**: Horários em que a tarifa de energia da rede elétrica é mais cara (geralmente no fim da tarde), o sistema gerencia a ativação das baterias locais acumuladas com energia solar, barateando o custo da recarga
+
+**Eficiência**: Ao organizar a recarga dos carros com a geração de energia solar local, o projeto reduz o desperdício energético e diminui diretamente a pegada de carbono do setor varejista
